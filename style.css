@@ -10,10 +10,16 @@ header {
 body {
   margin: 0px;
   background-color: rgb(20, 20, 22);
-  color: rgb(221, 35, 35);
+  color: rgb(114, 113, 113);
 }
-
 .container {
+  display: flex;
+  flex-direction: column;
+}
+h4 {
+  color: 130, 130, 130;
+}
+.body {
   display: flex;
   flex-direction: column;
 }
