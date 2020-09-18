@@ -9,17 +9,34 @@ header {
 
 body {
   margin: 0px;
-  background-color: rgb(20, 20, 22);
-  color: rgb(114, 113, 113);
+  background-color: rgb(117, 117, 131);
+  color: rgb(0, 0, 0);
 }
 .container {
   display: flex;
   flex-direction: column;
 }
 h4 {
-  color: 130, 130, 130;
+  color: black;
 }
-.body {
+.Fisk {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Fiskreklam {
+  order: 3;
+}
+.Links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+a {
+  font-size: large;
+  color: black;
+  font-style: oblique;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
