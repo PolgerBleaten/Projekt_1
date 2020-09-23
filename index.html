@@ -7,68 +7,85 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>POLGERS FISK OCH GRAVSTENAR!</h1>
+    <header class="Header">
+      <h1>POLGERS FISK & GRAVSTENAR!</h1>
+      <nav class="Links">
+        <div>
+          <a href="#fisk">Vår färska fisk</a>
+          <img src="fish-icon.png" alt="Fisk-ikon" />
+        </div>
+        <div>
+          <a href="#gravstenar">Gravstenar av högsta kvalite</a>
+          <img src="Tombstone-icon.png" alt="Gravstens-ikon" />
+        </div>
+        <div>
+          <a href="http://127.0.0.1:5500/Fiskhandel.html">Köp färsk fisk!</a>
+          <img src="shop.png" alt="Butik-ikon" />
+        </div>
+      </nav>
     </header>
-    <nav class="Links">
-      <a href="#fisk">Vår färska fisk</a>
-      <a href="#gravstenar">Gravstenar av högsta kvalite</a>
-    </nav>
-    <div class="Fisk">
+    <div class="Maincontent">
       <a href="https://www.fisk.se" class="Fiskreklam">
-        <img src="Firre.jpg" alt="Fiskreklam" width="400" />
+        <img src="fish-ad.jpg" alt="Fiskreklam" width="400" />
       </a>
-      <article id="fisk">
-        <h2>Nyfångad fisk</h2>
-        <img src="fisk.jpg" alt="Bild på fisk" width="700" />
-        <table>
-          <tr>
-            <td>
-              <p>
-                Vår fisk är lokalt fiskad från den heliga floden Ganges och har
-                blivit välsignad av påven. Dina smaklökar kommer definitivt bli
-                överraskade av smaken av indiers askor och förorening. Vi kan
-                garantera att det är något du aldrig har upplevt innan (om du
-                inte är riktigt konstig).
-              </p>
-            </td>
-          </tr>
-        </table>
-      </article>
-    </div>
-    <article id="gravstenar">
-      <h2>Våra bästa gravstenar</h2>
-      <img src="gravsten.jpg" alt="Bild på gravstenar" />
-      <table>
-        <tr>
-          <td>
-            <p style="width: 700px">
-              Vi på Polgers fisk och gravstenar värderar dina familjemedlemmar
-              lika mycket när de är döda som du gjorde när de var levande,
-              alltså inte speciellt mycket. Därför har vi tagit på oss uppgiften
-              att ge dem en upplevelse efter döden som passar hur de levde,
-              alltså billigt och obetydligt. Du kan vara säker på att dina barn
-              inte vet vem den du vill begrava heter, för genom applicering av
-              vår avancerade teknologi såsom sandpapper och mejslar för att
-              garantera återvinning av gravstenar inom en generation. Vi är
-              stolta över att veta att alla våra gravstenar har återanvänts
-              åtminstonde en gång, och på så sätt bidrar du till att minska
-              sten-svinnet genom att välja Polgers fisk och gravsten. Vi har
-              målet att vara helt fossil-fria (både under och över jord) vid
-              2022 genom att använda dina nära och käras kvarlevor till ett gott
-              syfte. Genom samarbete med vår partner "SHANGHAI FOODS AB" bidrar
-              vi till att lindra världshungern och skapar samtidigt jobb åt typ
-              2 pers.
-            </p>
-          </td>
-        </tr>
-      </table>
-      <div id="gladkund" class="container">
-        <img src="glad.jpg" alt="Glad kund" width="400" />
-        <h4>
-          Hur man ser ut efter att ha köpt en av våra fiskar eller gravstenar
-        </h4>
+      <div class="Articles">
+        <article id="fisk">
+          <h2>Nyfångad fisk</h2>
+          <img src="fish.jpg" alt="Bild på fisk" width="700" />
+          <table>
+            <tr>
+              <td>
+                <p>
+                  Vår fisk är lokalt fiskad från den heliga floden Ganges och
+                  har blivit välsignad av påven. Dina smaklökar kommer
+                  definitivt bli överraskade av smaken av indiers askor och
+                  förorening. Vi kan garantera att det är något du aldrig har
+                  upplevt innan (om du inte är riktigt konstig).
+                </p>
+              </td>
+            </tr>
+          </table>
+        </article>
+        <article id="gravstenar">
+          <h2>Våra bästa gravstenar</h2>
+          <img src="tombstone.jpg" alt="Bild på gravstenar" />
+          <table>
+            <tr>
+              <td>
+                <p style="width: 700px">
+                  Vi på Polgers fisk och gravstenar värderar dina
+                  familjemedlemmar lika mycket när de är döda som du gjorde när
+                  de var levande, alltså inte speciellt mycket. Därför har vi
+                  tagit på oss uppgiften att ge dem en upplevelse efter döden
+                  som passar hur de levde, alltså billigt och obetydligt. Du kan
+                  vara säker på att dina barn inte vet vem den du vill begrava
+                  heter, för genom applicering av vår avancerade teknologi såsom
+                  sandpapper och mejslar för att garantera återvinning av
+                  gravstenar inom en generation. Vi är stolta över att veta att
+                  alla våra gravstenar har återanvänts åtminstonde en gång, och
+                  på så sätt bidrar du till att minska sten-svinnet genom att
+                  välja Polgers fisk och gravsten. Vi har målet att vara helt
+                  fossil-fria (både under och över jord) vid 2022 genom att
+                  använda dina nära och käras kvarlevor till ett gott syfte.
+                  Genom samarbete med vår partner
+                  <a href="http://www.shanghaibestfood.com/" class="Partner"
+                    >Shanghai Best Food AB</a
+                  >
+                  bidrar vi till att lindra världshungern och skapar samtidigt
+                  jobb åt typ 2 pers.
+                </p>
+              </td>
+            </tr>
+          </table>
+          <div id="gladkund" class="container">
+            <img src="happy.jpg" alt="Glad kund" width="400" />
+            <h4>
+              Hur man ser ut efter att ha köpt en av våra fiskar eller
+              gravstenar
+            </h4>
+          </div>
+        </article>
       </div>
-    </article>
+    </div>
   </body>
 </html>
