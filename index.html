@@ -3,40 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Fisk och gravstens butik" />
     <title>Polgers fisk och gravstenar</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="Header">
-      <h1>POLGERS FISK & GRAVSTENAR!</h1>
+      <div class="Name">
+        <h1>POLGERS FISK & GRAVSTENAR!</h1>
+      </div>
       <nav class="Links">
         <figure>
           <a href="#fisk">
-            Vår färska fisk <img src="fish-icon.png" alt="Fisk-ikon" />
+            Vår färska fisk
+            <img src="fish-icon.png" alt="Fisk-ikon" class="shopicon" />
           </a>
         </figure>
         <figure>
           <a href="#gravstenar">
             Gravstenar av högsta kvalite
-            <img src="Tombstone-icon.png" alt="Gravstens-ikon" />
+            <img
+              src="Tombstone-icon.png"
+              alt="Gravstens-ikon"
+              class="shopicon"
+            />
           </a>
         </figure>
         <figure>
           <a href="http://127.0.0.1:5500/Butik.html">
             Köp färska fiskar och gravstenar!
-            <img src="shop.png" alt="Butik-ikon" />
+            <img src="shop.png" alt="Butik-ikon" class="shopicon" />
           </a>
         </figure>
       </nav>
     </header>
     <div class="Maincontent">
-      <a href="https://www.fisk.se" class="Fiskreklam">
-        <img src="fish-ad.jpg" alt="Fiskreklam" width="400" />
+      <a href="https://www.fisk.se" class="Fish_ad">
+        <img src="fish-ad.jpg" class="Adimage" alt="Fish ad" />
       </a>
-      <div class="Articles">
+      <div>
         <article id="fisk">
           <h2>Nyfångad fisk</h2>
-          <img src="fish.jpg" alt="Bild på fisk" width="700" class="picture" />
+          <img src="fish.jpg" alt="Bild på fisk" class="articleimage" />
           <table>
             <tr>
               <td>
@@ -54,11 +62,15 @@
         </article>
         <article id="gravstenar">
           <h2>Våra bästa gravstenar</h2>
-          <img src="tombstone.jpg" alt="Bild på gravstenar" />
+          <img
+            src="tombstone.jpg"
+            alt="Bild på gravstenar"
+            class="articleimage"
+          />
           <table>
             <tr>
               <td>
-                <p style="width: 700px">
+                <p>
                   Vi på Polgers fisk och gravstenar värderar dina
                   familjemedlemmar lika mycket när de är döda som du gjorde när
                   de var levande, alltså inte speciellt mycket. Därför har vi
@@ -84,7 +96,7 @@
             </tr>
           </table>
           <div id="gladkund" class="container">
-            <img src="happy.jpg" alt="Glad kund" width="400" />
+            <img src="happy.jpg" alt="Glad kund" class="articleimage" />
             <h4>
               Hur man ser ut efter att ha köpt en av våra fiskar eller
               gravstenar

@@ -5,6 +5,7 @@ header {
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(218, 213, 208);
+  font-size: 3.5vw;
 }
 header {
   display: flex;
@@ -15,10 +16,11 @@ html {
   background-color: blue;
 }
 body {
-  margin: 20px;
+  margin: 2vw;
   background-color: white;
   margin-bottom: 0px;
   border: 0px;
+  font-size: 14px;
 }
 .container {
   display: flex;
@@ -28,22 +30,30 @@ h4 {
   color: black;
 }
 .Maincontent {
-  padding: 20px;
+  padding: 2vw;
   padding-bottom: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.Fiskreklam {
+.Fish_ad {
   order: 3;
+}
+.Adimage {
+  width: 30vw;
 }
 .Links {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  width: 80vw;
+  overflow: hidden;
+}
+.Name {
+  width: 20vw;
 }
 a {
-  font-size: large;
+  font-size: 2vw;
   font-style: normal;
   text-decoration: none;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -65,11 +75,15 @@ a:hover {
 figure {
   display: flex;
   flex-direction: column-reverse;
+  width: 30%;
 }
 .store {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+h2 {
+  font-size: 2vw;
 }
 .description {
   color: rgb(200, 200, 200);
@@ -84,7 +98,7 @@ figure {
   transition: opacity 0.2s, visibility 0.2s;
 }
 h5 {
-  font-size: 32px;
+  font-size: 4vw;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: black;
   text-align: center;
@@ -93,11 +107,16 @@ h5 {
   background-color: white;
   padding-top: 2px;
   padding-bottom: 2px;
-  border: 40px solid blue;
-  border-right: 10px;
-  border-left: 10px;
+  border: 4vw solid blue;
+  border-right: 1vw;
+  border-left: 1vw;
 }
-
+.shopicon {
+  width: 15vw;
+}
+.articleimage {
+  width: 50vw;
+}
 .shopimage {
   width: 30vw;
   height: 20vw;
@@ -112,7 +131,9 @@ h5 {
   visibility: visible;
   opacity: 1;
 }
-
+p {
+  width: 50vw;
+}
 #footer {
   position: absolute;
   bottom: 0;
